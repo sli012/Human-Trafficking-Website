@@ -1,0 +1,206 @@
+/*# sourceMappingURL=style.css.map */
+/* display: flex; 
+justify-content: flex-start; */
+
+body {
+    background-color:rgba(207, 233, 253, 0.856);
+    border: 5px dotted hsl(275, 44%, 74%);
+    }
+  
+  .webPage{
+    margin: 20px;
+  }
+  
+  h3 {   
+    display: flexbox;
+    flex-direction: row; 
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    color: rgb(41, 95, 146);
+    border-color:blueviolet;
+    font-family: 'Barlow', sans-serif;
+  }
+  h4{
+    font-family: 'Barlow', sans-serif;
+      color: rgb(41, 95, 146)
+  }
+  
+  h1{
+    font-family: 'Barlow', sans-serif;
+    background-color: rgb(41, 95, 146);
+    color: rgb(127, 176, 223);
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  h2{
+    font-family: 'Barlow', sans-serif;
+    color: rgb(41, 95, 146);
+  }
+  .news{
+    font-family: 'Barlow', sans-serif;
+    background-color:cornflowerblue; 
+  }
+  
+  p{
+    font-family: 'Barlow', sans-serif;
+    color: rgb(41, 95, 146);
+  }
+  
+  .indent{
+    margin-left: 40px;
+    font-family: 'Barlow', sans-serif;
+  color: rgb(41, 95, 146);  
+  }
+  
+  .indent2{
+    margin-left: 80px;
+   
+  }
+  
+  .nav-bar{
+    display: flex; 
+    justify-content: space-evenly;
+    text-align: center;
+    color: rgb(125, 170, 212);
+    background-color: rgb(41, 95, 146); 
+    padding: 1em 1.5em;
+    
+  }
+  
+  
+  /*.img1{
+    height: 240px;
+    width: 200px;
+    justify-content: space-around;
+    border-radius: 40px;
+  }
+  .img2{
+    height: 240px;
+    width: 180px;
+    justify-content: space-around;
+    border-radius: 40px;
+  }
+  .img3{
+    height: 240px;
+    width: 180px;
+    justify-content: space-around;
+    border-radius: 40px;
+  }
+  .img4{
+    height: 240px;
+    width: 200px;
+    justify-content: space-around;
+    border-radius: 40px;
+  }*/
+  
+  .banner{
+    display: flex;
+    flex-direction: row;
+  }
+  .pics{
+    object-fit: contain;
+    height: 250px;
+    width: 400px; 
+  }
+  
+  .img4, .img1{
+    width: 200px;
+    height: 200px; 
+  }
+  
+  .img3, .img2{
+  width: 150px;
+  height: 200px;
+  }
+  
+  .meet-team{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  
+  .popup-link {
+  font-family: 'Georama', sans-serif;
+  }
+  
+  .page{
+    margin: 10px; 
+    font-family: 'Barlow', sans-serif;
+    padding: 2px 6px 2px 6px;
+    border-top: 2px solid #CCCCCC;
+    border-right: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-left: 2px solid #CCCCCC;
+    background-color: azure; 
+  }
+  
+  .title {
+    font-family: 'Barlow', sans-serif;
+  color: rgb(41, 95, 146);}
+  
+  .container {
+    font-family: 'Barlow', sans-serif;
+    border: 3em;
+    
+  }
+  
+  .button {
+    background-color: rgb(41, 95, 146);
+    border: none;
+    color: white;
+    margin-top: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    border-radius: 4px;
+  }
+  
+  /*Dropdown Button */
+  /* .dropbtn {
+    font-family: 'Georama', sans-serif
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  } */
+  
+  
+  
+  
+   /* The container <div> - needed to position the dropdown content
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  } */
+  
+  /* Dropdown Content (Hidden by Default)
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+  
+  /* Links inside the dropdown */
+  /* .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;} */
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+  
+  /* Show the dropdown menu on hover */
+  /* .dropdown:hover .dropdown-content {display: block;} */ 
+  
+  
